@@ -1,0 +1,25 @@
+.cuadro, #uno, #dos, #tres, #cuatro, #cinco, #seis {
+  height: 100px;
+  float: left;
+  width: 15%;
+  margin: 1px; }
+
+#uno {
+  background: red; }
+
+#dos {
+  background: #ff3333; }
+
+#tres {
+  background: #cc0000; }
+
+#cuatro {
+  background: #996666; }
+
+#cinco {
+  background: cyan; }
+
+#seis {
+  background: cyan; }
+
+/*# sourceMappingURL=style.css.map */

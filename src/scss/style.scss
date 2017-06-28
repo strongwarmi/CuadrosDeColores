@@ -1,0 +1,33 @@
+$color-base: red;
+.cuadro{
+    height: 100px;
+    float: left;
+    width: 15%;
+    margin: 1px;
+}
+#uno, #dos, #tres, #cuatro, #cinco, #seis{
+    @extend .cuadro;
+}
+#uno{
+    background: $color-base;
+}
+//aclarar
+#dos{
+    background: lighten($color-base,10%);
+}
+//oscurecer
+#tres{
+    background: darken($color-base,10%);
+}
+//saturar
+#cuatro{
+    background: desaturate($color-base,80%);
+}
+//color complemetario
+#cinco{
+    background: complement($color-base);
+}
+//invertir color
+#seis{
+    background: invert($color-base);
+}
