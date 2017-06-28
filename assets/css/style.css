@@ -1,25 +1,39 @@
-.cuadro, #uno, #dos, #tres, #cuatro, #cinco, #seis {
-  height: 100px;
-  float: left;
-  width: 15%;
-  margin: 1px; }
+.cuadro,
+#uno,
+#dos,
+#tres,
+#cuatro,
+#cinco,
+#seis {
+    height: 100px;
+    float: left;
+    width: 15%;
+    margin: 1px;
+}
 
 #uno {
-  background: red; }
+    background: red;
+}
 
 #dos {
-  background: #ff3333; }
+    background: #ff3333;
+}
 
 #tres {
-  background: #cc0000; }
+    background: #cc0000;
+}
 
 #cuatro {
-  background: #996666; }
+    background: #996666;
+}
 
 #cinco {
-  background: cyan; }
+    background: cyan;
+}
 
 #seis {
-  background: cyan; }
+    background: cyan;
+}
+
 
 /*# sourceMappingURL=style.css.map */
